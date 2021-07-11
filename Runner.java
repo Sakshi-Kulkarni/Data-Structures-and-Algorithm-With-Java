@@ -3,7 +3,7 @@ package DSA;
 import java.io.*;
 
 class LinkedlistPointer {
-    Node head;
+       Node head;
 
     public class Node {
         int data;
