@@ -32,7 +32,7 @@ public class ReverseLinkedList {
 			current.next = previous;
 			previous = current;
 			current = next;
-		}
+		} 
 		linkedList.head = previous;
 	}
 
