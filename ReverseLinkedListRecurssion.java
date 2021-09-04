@@ -19,7 +19,7 @@ public class ReverseLinkedListRecurssion {
     Node rest = reverse(head.next);
     head.next.next = head;
 
-    /* tricky step -- see the diagram */
+    
     head.next = null;
 
     /* fix the head pointer */
